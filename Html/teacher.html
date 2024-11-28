@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teacher Dashboard</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <a href="index.html" class="logout">Logout</a>
+      <h1>Teacher Dashboard</h1>
+
+      <!-- Message to create a random quiz -->
+      <div id="createQuizMessage" class="message">
+        <p>Create a Random Quiz</p>
+      </div>
+
+      <!-- Quiz Creation Form Section (Hidden Initially) -->
+      <section id="quizFormSection" style="display: none">
+        <h2>Create a Random Quiz</h2>
+        <form id="quizForm">
+          <div id="questionsContainer"></div>
+        </form>
+      </section>
+
+      <!-- Section to display and update student submissions -->
+      <h2>Student Submissions</h2>
+      <div id="submissionsList"></div>
+
+      <!-- Section to display quizzes with delete functionality -->
+      <h2>Delete Quizzes</h2>
+      <div id="deleteQuizList"></div>
+    </div>
+
+    <script src="../JavaScript/teacher.js"></script>
+  </body>
+</html>

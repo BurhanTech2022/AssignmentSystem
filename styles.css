@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: "Roboto", serif;
+    background-color: #f4f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.login-container,.register-container{
+    background: #1a1919;
+	color: #00FF41;
+	font-family: 'Matrix Code NFI', sans-serif;
+}
+.login-container button ,.register-container button{
+    background-color: #6b6969;
+    color: antiquewhite;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    align-items: center;
+    inset: none;
+}
+.register-container{
+    background: #dab7b7;
+	color: #1b291f;
+}
+.register-container button{
+   background-color: #436699;
+   color: #151816;
+}
+.student-container{
+    background-color: #5f8db3;
+    color: rgb(7, 14, 15);
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    align-items: center;
+    inset: none;
+}
+#role{
+    padding: 10px;
+    background-color: #436699;
+    border-radius: 5px;
+    color: #46eb6f;
+    font-size: large;
+}
+.container {
+    width: 90%;
+    max-width: 800px;
+    /* background: #fff; */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #0052cc;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #003d99;
+}
+
+.quiz-item, .submission-item {
+    background-color: #eef2f7;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.message {
+    background-color: #eef2f7;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    color: #0052cc;
+    font-weight: bold;
+}
+.message:hover {
+    background-color: #d0e2ff;
+}
+
+
+a{
+    float:right;
+    text-decoration: none;
+}
+
+.quiz-item, .submission-item {
+    background-color: #eef2f7;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.quiz-item h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.submission-item {
+    background-color: #eef2f7;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.submission-item strong {
+    color: #333;
+}
+
+.submission-item label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.submission-item input[type="text"] {
+    width: 50px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.submission-item button {
+    background-color: #0052cc;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submission-item button:hover {
+    background-color: #1b2b44;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logout{
+    color:rgb(226, 10, 10);
+}
+#ms-error{
+    text-align:center;color: antiquewhite;
+}
+/* All backgrounds */
+.hbrgound{
+    background: linear-gradient(#269226, #9198e5);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 1400px;
+  
+ 
+}
+.hbrgound .container,.register-container,.student-container{
+    align-items: center;
+    justify-content: center;
+    margin: 120px auto;
+}
+.rgbg{
+    background: linear-gradient(#132e3d, #683760);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 1400px;
+}
+.stbg{
+    background: linear-gradient(#c0d6e2,#adad33);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 1400px;
+}
+
+/* Define the animation */
+@keyframes rotate360 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(45deg);
+    }
+  }
+  
+  /* Apply the animation to the icon */
+  .fa-sharp-duotone {
+    display: inline-block; 
+    animation: rotate360 2s linear infinite; 
+    font-size: 2rem; 
+    
+    border-radius: 100%;
+    color:#2e3236; 
+    position: fixed;
+    top: 120px;
+    right: 650px;
+    
+  }
+  
+  
+  
+
+    

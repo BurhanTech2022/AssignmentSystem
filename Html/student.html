@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="stbg">
+      <div class="student-container container">
+        <a href="index.html" class="logout">Logout</a>
+        <!-- soo bandhig userka macagiisa iyo role kiisa -->
+        <i class="fa-sharp-duotone fa-solid fa-eye"></i>
+        <div id="student_name">
+         Welcome :
+        </div>
+
+        <!-- Section to display available quizzes -->
+        <h2>Available Quizzes</h2>
+        <div id="quizList"></div>
+
+        <!-- Section to display submitted quizzes and grades, hidden initially -->
+        <h2 id="submittedQuizzesTitle" style="display: none">
+          Submitted Quizzes
+        </h2>
+        <div id="submittedQuizzes" style="display: none"></div>
+
+        <!-- Modal for quiz summary -->
+        <div id="quizSummaryModal" class="modal" style="display: none">
+          <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Quiz Summary</h2>
+            <div id="quizSummaryContent"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../JavaScript/student.js"></script>
+  </body>
+</html>
